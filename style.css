@@ -1,0 +1,205 @@
+*{
+	background-color: #00ccff;
+	margin: 0 auto;
+	padding: 0px;
+	box-sizing: border-box;
+	border:solid 1px white;
+}
+
+.clear{
+	clear: both;
+
+}
+/*...................start header................*/
+header{
+	background-color: #d9d9d9;
+	margin: 0 auto;
+	padding: 0px;
+
+}
+
+.logo1{
+	height: 120px;
+	max-width: 30%;
+	float: left;
+
+}
+.logo2{
+	height: 120px;
+	max-width: 30%;
+	float: right;
+}
+
+.head{
+	margin: 0px 15px 10px 100px;
+	height: 110px;
+	font-size: 40px;
+	color: #ff6666;
+	text-shadow: 2px 3px #ccffcc;
+	font-family: 'Yeon Sung', cursive;
+}
+
+
+
+
+
+
+.animation{
+	font-size: 50px;
+	color: #4d0026;
+	text-shadow: 1px 2px white;
+	height: 300px;
+	max-width: 100%;
+	background-image: url(img/vid1.jpg); 
+	background-size: cover;
+	animation-name:video;
+	animation-duration: 7s;
+	animation-iteration-count: infinite;
+
+}
+
+@keyframes video{
+	50%{ background-image: url(img/vid1.jpg);}
+	75%{background-image:url(img/vid2.jpg); }
+	50%{background-image: url(img/logo2.jpg);}
+}
+/*...................stop header................*/
+
+
+
+
+
+
+
+menu{
+	background-color: #b3ffff;
+}
+
+
+
+/*................ start.button...............*/
+.cake{
+	font-size: 40px;
+	height: 50px;
+	max-width: 100%;
+	margin: 10px;
+	padding: 0px 10px 10px 180px;
+	background-color: #ff99cc;
+}
+.cake:hover{
+	background-color: #ffff00
+}
+
+.cosmetics{
+	font-size: 40px;
+    height: 50px;
+	max-width: 100%;
+	padding: 0px 10px 10px 150px;
+	margin: 10px;
+	background-color:  #ffff00;
+}
+.cosmetics:hover{
+	background-color: #ff99cc;
+}
+
+.about{
+	font-size: 40px;
+    height: 50px;
+	max-width: 100%;
+	padding: 0px 10px 10px 180px;
+	margin: 10px;
+	background-color:  #00b359;
+}
+.about:hover{
+	background-color: #ff99cc; 
+}
+/*................ stop button...............*/
+
+
+.rrr{
+	height: 220px;
+	max-width: 100%;
+}
+.rrr img{
+	max-width: 100%;
+	width: 5000px;
+}
+
+
+
+.code1{
+	color: white;
+	font-size: 20px;
+	text-shadow: 2px 2px black;
+	padding: 5px;
+	box-sizing: border-box;
+	height: 250px;
+	max-width: 50%;
+	width: 500px;
+	background-color: gray;
+	float: left;
+	background-size: cover;
+	opacity: 0.8;
+}
+
+.code1:hover{
+	background-color: #80bfff;
+	opacity: 1;
+}
+
+
+
+img{
+	height: 210px;
+	width: 500px;
+	max-width: 100%;
+}
+
+
+
+.contact {
+	font-size: 40px;
+}
+.contact a {
+	font-size: 30px;
+}
+
+.contact a img{
+	height: 100px;
+	max-width: 20%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+	background-color: #666666;
+}
+
+
+.rifat{
+	height: 70px;
+	max-width: 100%;
+	margin: 0px;
+	padding: 10px;
+	background-color: black;
+	color: white;
+	font-size: 30px;
+	position: center;
+	text-align: center;
+}
+	
+
+.rifat a{
+	color: #e6f2ff;
+}
